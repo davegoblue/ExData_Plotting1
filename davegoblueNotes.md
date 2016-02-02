@@ -18,7 +18,7 @@ There are four (4) scripts which each produce a default (480x480) PNG file.  Eve
 
 Each of the scripts is designed to stand-alone and therefore reads in the raw text file and pre-processes it for graphing.  This would be inefficient if trying to reproduce as data loading is the strong majority of system and elapsed time.
 
-The data loading and cleaning is run by functions.  If you just want to test some different parameters, quicker options are suggested below:
+Data loading and cleaning is run by functions.  If you just want to test different parameters, quicker options are suggested below:
 
 * If you already loaded and cleaned data and want to use existing data frame myUseData, then comment out the first relevant line following the functions ## myUseData <- readAndCleanData()
 * If you already loaded data and have data frame myRawData (these scripts do not save that, but suppose you had edited to do so) but want to clean/subset differently, edit the first line of function readAndCleanData to be     ## myRawData <- readRawFile()
